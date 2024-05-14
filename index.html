@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz 2 - Log-In Page</title>
+</head>
+<body>
+	<style>
+		.container{
+			border: 1px solid black;
+			width: 670px;
+			margin: 170px;
+			padding: 15px;
+			border-radius: 8px;
+			box-shadow: -16px 5px 27px -6px rgba(140,145,142,0.75);
+-webkit-box-shadow: -16px 5px 27px -6px rgba(140,145,142,0.75);
+-moz-box-shadow: -16px 5px 27px -6px rgba(140,145,142,0.75);
+		}
+		.mao{
+			height: 300px;
+			width: 300px;
+		}
+		body{
+			background-image: url(bg.jpg);
+			background-repeat: no-repeat;
+			background-size: 1950px 940px;
+		}
+	</style>
+	<center>
+	<div class="container">
+	<form>
+		<img src="icon.jpg" class="mao" alt="icon">
+	  <div class="mb-3 mt-3">
+	  	<br>
+	    <label for="email" class="form-label">Email:</label>
+	    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+	  </div>
+	  <div class="mb-3">
+	    <label for="pwd" class="form-label">Password:</label>
+	    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+	  </div>
+	  <br>
+	</form>
+	<a href="mainpage.html"><button type="submit" button class="btn btn-success btn-lg" onclick="">Submit</button></a>
+	</div>
+	</center>
+</body>
+</html>
